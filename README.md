@@ -54,7 +54,17 @@ This has practical implications for:
 Random Forest achieved the best predictive accuracy by capturing non-linear interactions between congestion zones and fare pricing.
 
 ---
+##  Visual Results
 
+Below are key visualizations from the modeling phase:
+
+![Model Comparison by Congestion Zone](congestion_zone_fare_impact.png)
+*Comparison of predicted vs. actual fares across congestion-heavy neighborhoods.*
+
+![Random Forest Regression Metrics](/rf_model_performance_summary.png)
+*Random Forest delivered the best performance with the lowest MSE and highest explanatory power (R² = 0.49).*
+
+---
 ##  Individual Contributions
 
 - **Mukthasree Vengoti**: Led the **spatial and temporal congestion analysis**, identified peak-hour congestion zones and modeled temporal fare patterns.
@@ -69,10 +79,23 @@ NYC--Green--Tax--Data--Data-Science-Project/
 ├── Group_5_Capstone_report.pdf # Full report with figures and findings
 
 
-## 🔗 Report & GitHub
+##  Report & GitHub
 
 -  [Full Report (PDF)](./Group_5_Capstone_report.pdf)
 -  [View Full Code Notebook](./Capstone_Project_Code_Group_5.ipynb)
+
+---
+
+##  Real-World Relevance
+
+This project mimics real industry use cases like:
+
+- **Fare estimation engines** used by Uber, Lyft, Ola, etc.  
+- **Traffic congestion impact analysis** for smart cities and government planning  
+- **Dynamic pricing and zone-based fare modeling** used by taxi operators  
+- **Geospatial analytics** to identify high-risk or high-demand areas for better fleet routing
+
+By integrating congestion, time-of-day, and location-based features, the model reflects real-world complexities seen in urban transport systems.
 
 ---
 
@@ -82,6 +105,16 @@ NYC--Green--Tax--Data--Data-Science-Project/
 - Interpreted spatial and temporal trends for urban impact
 - Compared models using evaluation metrics and explained results using visuals
 - Demonstrated individual responsibility in a team-based academic project
+
+---
+
+###  Top Predictive Features (Random Forest)
+
+- Trip Distance  
+- Duration  
+- Congestion Surcharge  
+- Pickup Hour  
+- Dropoff Location ID  
 
 ---
 
