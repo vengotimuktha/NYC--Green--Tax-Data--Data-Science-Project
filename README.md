@@ -51,6 +51,8 @@ This has practical implications for:
 | Decision Tree    | Moderate | Moderate| ~0.32    |
 | Random Forest    | **Lowest**| Best   | Best     |
 
+
+
 Random Forest achieved the best predictive accuracy by capturing non-linear interactions between congestion zones and fare pricing.
 
 ---
